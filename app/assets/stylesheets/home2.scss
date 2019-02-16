@@ -1,0 +1,83 @@
+// Place all the styles related to the home2 controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+@media only screen and (max-width: 400px) {
+    body{
+        background-color: #F09A9D;
+    }
+}
+
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+    body{
+        background-color: red ;
+    }
+    .sign-up,
+    .feature-1,
+    .feature-2,
+    .feature-3 {
+        width: 50% ;
+    }
+}
+
+@media only screen and (min-width: 961px) {
+    body{
+        background-color: #B2D6FF;
+    }
+    .page {
+        width: 960px;
+        margin: 0 auto;
+    }
+    .feature-1,
+    .feature-2,
+    .feature-3 {
+        width: 33.3% !important;
+    }
+    
+    .header {
+        height: 400px;
+    }
+}
+
+.section {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu {
+    background-color: #5995DA;
+    height: 80px;
+}
+
+.header {
+    background-color: #B2D6FFs;
+}
+
+.content {
+    background-color: #EAEDF0;
+    height: 600px;
+}
+
+.sign-up {
+   background-color:  #D6E9FE;
+}
+
+.feature-1 {
+    background-color: #F5CF8E;
+}
+
+.feature-2 {
+    background-color: #F09A9D;
+}
+
+.feature-3 {
+    background-color: #C8C6FA;
+}
+.page {
+    display: flex;
+    flex-wrap: wrap;
+}
